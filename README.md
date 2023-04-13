@@ -19,8 +19,3 @@ The users can access the following information:
 
 The program is written in C++, and it includes various libraries such as sys/types.h, sys/socket.h, arpa/inet.h, netinet/in.h, errno.h, unistd.h, stdio.h, string.h, stdlib.h, signal.h, pthread.h, cstdlib, sys/stat.h, libxml/parser.h, libxml/tree.h, time.h, and cstring.h.
 
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
