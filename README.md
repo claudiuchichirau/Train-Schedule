@@ -5,10 +5,10 @@ The "Train Schedule" project is an application that provides users (customer, st
 1. Install WSL (Windows Subsystem for Linux) following these instructions
 2. Clone the repo
 3. Open two WSL windows, one for the server and one for the client, and navigate to the project directory in each of them
-4. In the server WSL window, run the following command to compile the "server.cpp" file 'g++ -Wall -pthread -I/usr/include/libxml2 server.cpp -lpthread -o server -lxml2'
-5. Then, run the following command to execute the compiled file: './server'
-6. In the client WSL window, run the following command to compile the "client.cpp" file: 'g++ client.cpp -o client'
-7. Finally, run the following command to execute the compiled file and connect to the server: './client 127.0.0.1 3407'
+4. In the server WSL window, run the following command to compile the "server.cpp" file: `g++ -Wall -pthread -I/usr/include/libxml2 server.cpp -lpthread -o server -lxml2`
+5. Then, run the following command to execute the compiled file: `./server`
+6. In the client WSL window, run the following command to compile the "client.cpp" file: `g++ client.cpp -o client`
+7. Finally, run the following command to execute the compiled file and connect to the server: `./client 127.0.0.1 3407`
 
 ## Project Description
 
