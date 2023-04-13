@@ -1,10 +1,17 @@
 # Train-Schedule
-The "Train Schedule" project is an application that provides users (customer, station or train) with information about trains, their delays, etc.
+The "Train Schedule" project is an application that provides users (customer, station or train) with information about trains, their delays, etc. The users can access the following information:
+
+## Project Description
+
+1. For the station user: the user can select from the following options: the arrival board, the departure board, log out, or exit the application.
+2. For the client user: the user can select from the following options: the arrival board for a specific station, the departure board for a specific station, the arrivals for the next hour for a specific station, the departures for the next hour for a specific station, the train(s) that can take the client from station A to station B, log out, or exit the application.
+3. For the train user: the user can select from the following options: the itinerary information for the train, update the schedule for the train, log out, or exit the application.
+
+The program is written in C++, and it includes various libraries such as sys/types.h, sys/socket.h, arpa/inet.h, netinet/in.h, errno.h, unistd.h, stdio.h, string.h, stdlib.h, signal.h, pthread.h, cstdlib, sys/stat.h, libxml/parser.h, libxml/tree.h, time.h, and cstring.h.
 
 
 ----- ex
 
-# Numele Proiectului
 
 Descrierea proiectului în câteva cuvinte.
 
