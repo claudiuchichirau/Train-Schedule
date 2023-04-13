@@ -1,5 +1,5 @@
 # Train-Schedule
-The "Train Schedule" project is an application that provides users (customer, station or train) with information about trains, their delays, etc.
+The "Train Running" project is a server implemented to provide and update real-time train running information, departure and arrival status, delays and arrival estimates for all registered customers. The server reads data from XML files and updates the data on request from clients. All logic is done in the server, clients just request information about departures/arrivals and send information to the server about possible delays and estimated arrivals.
 
 ## Installation & Run
 1. Install WSL (Windows Subsystem for Linux) following these instructions
