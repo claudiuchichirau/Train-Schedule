@@ -1,7 +1,7 @@
 # Train-Schedule
 The "Train Schedule" project is an application that provides users (customer, station or train) with information about trains, their delays, etc.
 
-## Installation
+## Installation & Run
 1. Install WSL (Windows Subsystem for Linux) following these instructions
 2. Clone the repo
 3. Open two WSL windows, one for the server and one for the client, and navigate to the project directory in each of them
@@ -20,33 +20,7 @@ The users can access the following information:
 The program is written in C++, and it includes various libraries such as sys/types.h, sys/socket.h, arpa/inet.h, netinet/in.h, errno.h, unistd.h, stdio.h, string.h, stdlib.h, signal.h, pthread.h, cstdlib, sys/stat.h, libxml/parser.h, libxml/tree.h, time.h, and cstring.h.
 
 
------ ex
+## License
 
-
-Descrierea proiectului în câteva cuvinte.
-
-## Instalare
-
-1. Clonați repo-ul
-2. Deschideți terminalul și navigați în directorul proiectului
-3. Rulați `npm install`
-
-## Utilizare
-
-1. Rulați `npm start` pentru a porni serverul de dezvoltare
-2. Deschideți `localhost:3000` într-un browser pentru a vedea aplicația
-
-## Contribuții
-
-Contribuțiile sunt binevenite! Pentru a contribui, urmați acești pași:
-
-1. Fork repo-ul
-2. Creați un branch nou (`git checkout -b feature/feature-name`)
-3. Realizați modificările necesare
-4. Faceți push la branch-ul creat (`git push origin feature/feature-name`)
-5. Deschideți un Pull Request
-
-## Licență
-
-Acest proiect este licențiat sub [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
